@@ -31,7 +31,7 @@ class AppRoutes extends Component {
       <Suspense fallback={<Spinner />}>
         <Switch>
           <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/create-order" component={CreateOrders} />
+          <Route exact path="/orders/create-order" component={CreateOrders} />
           <Route path="/basic-ui/buttons" component={Buttons} />
           <Route path="/basic-ui/dropdowns" component={Dropdowns} />
           <Route path="/basic-ui/typography" component={Typography} />
